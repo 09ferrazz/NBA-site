@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-color: #edeef0;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.menu th a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.menu{
+	background: #045fb5;
+	text-shadow: 1px 1px black;
+	color: white ;
+	width : 100%;
+	font-size: 30px;
+	height: 80px;
+    word-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td:hover{
+	transform: scale(1.15);
+	transition-delay: 3seg;
+}
+.nbaLOGO{
+	height: 50px;
+    margin-right: 5px;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.barra{
+    width: 80%;
+    height: 7%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 10%
+}
+.tp1{
+    width: 80%;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.imagem1{
+    float: right;
+    margin: 10px;
+    border-radius: 10px;
+}
+.imagem2{
+    float: left;
+    margin: 10px;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+.imagem3{
+    float: right;
+    margin: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+.botao{
+    width: 100%;
+    height: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 100%;
+    text-align: center;
+}
+.button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 12%;
+    height: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #045fb5;
+    border-radius: 10px;
+    border: 0;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: #034a8c;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+
+    .menu {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .menu table {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu td, .menu th {
+        padding: 8px 0;
+        transform: none !important;
+    }
+
+    .nbaLOGO {
+        height: 40px;
+        margin: 5px 0;
+    }
+
+    .container {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .barra, .tp1 {
+        width: 95%;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .imagem1, .imagem2, .imagem3 {
+        float: none;
+        width: 100% !important;
+        height: auto;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .button {
+        width: 50%;
+        height: 45px;
+        font-size: 18px;
+    }
+
+}

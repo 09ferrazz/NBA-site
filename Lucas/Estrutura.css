@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-color: #edeef0;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.menu th a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.menu{
+	background: #045fb5;
+	text-shadow: 1px 1px black;
+	color: white ;
+	width : 100%;
+	font-size: 30px;
+	height: 80px;
+    word-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td:hover{
+	transform: scale(1.15);
+	transition-delay: 3seg;
+}
+.nbaLOGO{
+	height: 50px;
+    margin-right: 5px;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.barra{
+    width: 65%;
+    height: 7%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 10%;
+    margin-right: 2.5%;
+    align-self: center;
+}
+.tp1{
+    width: 65%;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.5%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90%;
+    align-self: center;
+}
+.imagem1{
+    margin: 10px;
+    border-radius: 10px;
+    width: 90%;
+    align-self: center;
+}
+.imagem2{
+    float: left;
+    margin: 10px;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+.imagem3{
+    float: right;
+    margin: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+.botao{
+    width: 100%;
+    height: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 100%;
+    text-align: center;
+}
+.button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 12%;
+    height: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #045fb5;
+    border-radius: 10px;
+    border: 0;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: #034a8c;
+    color: white;
+    transform: scale(1.05);
+}
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-size: 20px;
+  color: #000000;
+  margin-top: 6px;
+  font-style: bold;
+}
+
+.lateral{
+    height: 80%;
+    width: 25%;
+    position: absolute;
+    top: 25%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.tinta{
+    align-self: flex-start;
+    background-color: #045fb5;
+    color: white;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.lateral ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 30%; 
+}
+
+.lateral li {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #000000;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.lateral li:hover {
+  background-color: #f2f4f7;
+  transform: translateX(4px);
+  font-weight: bold;
+}
+
+.lateral li a {
+  color: inherit;            
+  text-decoration: none;     
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 768px) {
+
+    .menu {
+        height: auto;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .menu table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu td, .menu th {
+        padding: 5px 0;
+    }
+
+    .nbaLOGO {
+        height: 35px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .lateral {
+        display: none;
+    }
+
+    .barra {
+        width: 90%;
+    }
+
+    .tp1 {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    p {
+        font-size: 17px;
+        width: 95%;
+    }
+
+
+    .imagem1 {
+        width: 95%;
+    }
+
+    .imagem2,
+    .imagem3 {
+        float: none;
+        width: 95%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .button {
+        width: 50%;
+        height: auto;
+        padding: 12px 0;
+        font-size: 18px;
+    }
+}
+

@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-color: #edeef0;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.menu th a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.menu{
+    background: #045fb5;
+    text-shadow: 1px 1px black;
+    color: white ;
+    width : 100%;
+    font-size: 30px;
+    height: 80px;
+    word-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td:hover{
+    transform: scale(1.15);
+    transition-delay: 3seg;
+}
+.nbaLOGO{
+    height: 50px;
+    margin-right: 5px;
+}
+.container{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-family: 'Impact', sans-serif;
+    gap: 5px;
+}
+.Logo img{
+    height: 100px;
+    border-radius: 10px;
+    border: solid 0.5px white;
+}
+
+
+@media (max-width: 768px) {
+
+    .menu {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .menu table {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu td, .menu th {
+        padding: 8px 0;
+        transform: none !important;
+    }
+
+    .nbaLOGO {
+        height: 40px;
+        margin: 5px 0;
+    }
+
+    .container {
+        height: auto;
+        min-height: calc(100vh - 80px); 
+        display: flex;
+        align-items: center;           
+        justify-content: center;        
+        padding: 40px 0;
+    }
+
+    .Logo {
+        display: flex;
+        flex-direction: row;  
+        align-items: center;  
+        justify-content: center;
+        gap: 10px;
+        font-size: 60px;
+    }
+
+    .Logo img {
+        height: 80px;
+    }
+}
